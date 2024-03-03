@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Login Page</title>
+    </head>
+
+    <body>
+
+
+        <section id="login">
+            <div class="container">
+                <div class="login-content text-center w-75 m-auto my-5 p-5 boxShadow">
+                    <div class="header pb-4">
+                        <h1>Smart Login System</h1>
+                    </div>
+                    <div class="content">
+                        <input type="email" id="emailLoginInput"  class="form-control text-white mb-3 bg-transparent" placeholder="Enter your email" >
+                        <input type="password" id="passwordLoginInput" class="form-control text-white mb-4 bg-transparent" placeholder="Enter your password" >
+                        <p id="alertMassage" class="d-none"></p>
+                    </div>
+                    <div class="submit-btn ">
+                        <a id="loginBtn" class="btn w-100">Login</a>
+                    </div>
+                    <div class="account-question mt-3">
+                        <p class="text-white">Don’t have an account? <a href="signup.html" class="text-decoration-none text-white">Signup</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/logIn.js"></script>
+    </body>
+</html>
